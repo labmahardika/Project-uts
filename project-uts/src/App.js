@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import AOS from 'aos';
 import Navbar from './components/Navbar';
 import AppRoutes from './routes/AppRoutes';
+import Footer from './pages/Footer';
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <Navbar />
       <AppRoutes />
+      <Footer />
     </Router>
   );
 }
