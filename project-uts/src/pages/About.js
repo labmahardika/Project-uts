@@ -19,7 +19,7 @@ const About = () => {
         <Row className="align-items-center">
           <Col md={6} data-aos="fade-right" className="text-center mb-4 mb-md-0">
             <img
-              src="https://labmahardika.github.io/react-deploy/about.jpeg" 
+              src={`${process.env.PUBLIC_URL}/about.jpeg`} 
               alt="About"
               style={{
                 width: '100%',
