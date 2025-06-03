@@ -29,7 +29,7 @@ const Home = () => {
 
         {/* Gambar Maskot */}
         <img
-          src= "/codingkids.png"
+          src= "codingkids.png"
           alt="Ilustrasi Anak"
           style={{
             maxWidth: '180px',
