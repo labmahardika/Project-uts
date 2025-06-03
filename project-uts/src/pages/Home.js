@@ -29,7 +29,7 @@ const Home = () => {
 
         {/* Gambar Maskot */}
         <img
-          src="/images/codingkids.png"
+          src={process.env.PUBLIC_URL + "/images/codingkids.png"}
           alt="Ilustrasi Anak"
           style={{
             maxWidth: '180px',
